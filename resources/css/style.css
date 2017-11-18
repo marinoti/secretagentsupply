@@ -12,11 +12,6 @@ html {
   color: white;
 }
 
-.logo img {
-  height: 1.5rem;
-  padding-left: 0.5rem;
-  padding-right: 1rem;
-}
 
 .logo .container {
   display: flex;
@@ -25,6 +20,47 @@ html {
   padding-bottom: 0.66rem;
 }
 
-.logo span {
+.logo img {
+  height: 1.5rem;
+  padding-left: 0.5rem;
+  padding-right: 1rem;
+}
 
+.logo span {
+  font-size: 1rem;
+  font-family: Helvetica;
+}
+
+/*  ##### Main Banner ##### */
+
+.main {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/moto.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 25rem;
+}
+
+.container .title {
+  background-color: black;
+  color: white;
+  width: 20rem;
+  padding: 2rem 3rem;
+  position: relative;
+  top: 9rem;
+  height: 7rem;
+}
+
+.title h4 {
+  font-size: 1rem;
+  font-family: Helvetica;
+  font-weight: bold;
+  padding-bottom: 0.75rem;
+}
+
+.title h1 {
+  font-size: 2rem;
+  font-family: Helvetica;
+  font-weight: bold;
+  line-height: 2.25rem;
 }
