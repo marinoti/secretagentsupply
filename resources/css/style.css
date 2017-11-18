@@ -2,6 +2,11 @@ html {
   font-size: 18px;
 }
 
+body {
+  font-family: helvetica;
+  font-weight: bold
+}
+
 .container {
   width: 960px;
   margin: 0 auto;
@@ -28,7 +33,6 @@ html {
 
 .logo span {
   font-size: 1rem;
-  font-family: Helvetica;
 }
 
 /*  ##### Main Banner ##### */
@@ -53,14 +57,24 @@ html {
 
 .title h4 {
   font-size: 1rem;
-  font-family: Helvetica;
-  font-weight: bold;
   padding-bottom: 0.75rem;
 }
 
 .title h1 {
   font-size: 2rem;
-  font-family: Helvetica;
-  font-weight: bold;
   line-height: 2.25rem;
+}
+
+/* ##### NAV BAR ##### */
+.navigation {
+  width: 100%;
+  background-color: firebrick;
+  color: white;
+}
+
+nav ul {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding: 0.75rem 0;
 }
