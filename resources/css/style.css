@@ -111,3 +111,34 @@ nav ul {
   padding: 0.5rem;
   display: block;
 }
+
+/* ##### Business Info #####*/
+.business-info {
+  display: flex;
+  justify-content: space-between;
+  margin: 3rem 0 0 0;
+}
+
+.info {
+  width: 35%;
+}
+
+.item {
+  background-color: black;
+  color: white;
+  padding: 1rem 2rem;
+  display: block;
+}
+
+.info span {
+  text-align: left;
+  font-weight: normal;
+}
+
+/* ##### footer #####`*/
+footer {
+  background-color: black;
+  color: white;
+  margin-top: 4rem;
+  padding: 5rem;
+}
